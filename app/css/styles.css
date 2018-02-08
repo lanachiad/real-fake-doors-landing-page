@@ -1,5 +1,30 @@
-.testing {
-  width: 71.42857%; }
-
+/****************************************
+                Variables
+****************************************/
+/****************************************
+                Universals
+****************************************/
+html,
 body {
-  background-color: pink; }
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif; }
+
+p,
+a,
+span,
+ul,
+ol,
+li {
+  font-family: "Acme", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  padding: 40px 80px; }
