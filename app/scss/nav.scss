@@ -1,0 +1,41 @@
+@import 'styles';
+
+#nav {
+  background-color: $dark-color;
+
+  a {
+    color: #9d9d9d;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    text-transform: uppercase;
+
+    h1 a {
+      color: #fff;
+    }
+  }
+
+  .nav-links {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+
+    li {
+      display: inline;
+      margin-right: 30px;
+    }
+
+    li:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
