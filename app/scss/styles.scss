@@ -1,8 +1,8 @@
 /****************************************
                 Variables
 ****************************************/
-$heading-font: 'Montserrat', sans-serif;
-$body-font: 'Acme', sans-serif;
+$heading-font: 'Acme', sans-serif;
+$body-font: 'Montserrat', sans-serif;
 
 $dark-color: #333;
 
@@ -16,9 +16,13 @@ body {
 }
 
 h1,
+h1 a,
 h2,
+h2 a,
 h3,
-h4 {
+h3 a,
+h4,
+h4 a {
   font-family: $heading-font;
 }
 
