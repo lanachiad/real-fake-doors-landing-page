@@ -5,6 +5,7 @@ $heading-font: 'Acme', sans-serif;
 $body-font: 'Montserrat', sans-serif;
 
 $dark-color: #333;
+$blue: #c79926;
 
 /****************************************
                 Universals
@@ -31,7 +32,8 @@ a,
 span,
 ul,
 ol,
-li {
+li,
+button {
   font-family: $body-font;
 }
 
@@ -39,6 +41,42 @@ a {
   text-decoration: none;
 }
 
+/****************************************
+                Classes
+****************************************/
+
 .container {
   padding: 40px 80px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px $blue solid;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px;
+
+  &:hover {
+    background-color: $blue;
+  }
+}
+
+.cta {
+  background-color: $blue;
+  color: #fff !important;
+
+  &:hover {
+    background-color: lighten($blue, 5%);
+    border: 2px lighten($blue, 5%) solid;
+  }
+}
+
+.cta-text {
+  color: $blue !important;
+
+  &:hover {
+    color: lighten($blue, 5%);
+  }
 }

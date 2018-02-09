@@ -24,11 +24,38 @@ a,
 span,
 ul,
 ol,
-li {
+li,
+button {
   font-family: "Montserrat", sans-serif; }
 
 a {
   text-decoration: none; }
 
+/****************************************
+                Classes
+****************************************/
 .container {
   padding: 40px 80px; }
+
+.btn {
+  background-color: transparent;
+  border: 2px #c79926 solid;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px; }
+  .btn:hover {
+    background-color: #c79926; }
+
+.cta {
+  background-color: #c79926;
+  color: #fff !important; }
+  .cta:hover {
+    background-color: #d7a72f;
+    border: 2px #d7a72f solid; }
+
+.cta-text {
+  color: #c79926 !important; }
+  .cta-text:hover {
+    color: #d7a72f; }
