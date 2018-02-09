@@ -5,7 +5,7 @@ $heading-font: 'Acme', sans-serif;
 $body-font: 'Montserrat', sans-serif;
 
 $dark-color: #333;
-$blue: #c79926;
+$gold: #c79926;
 
 /****************************************
                 Universals
@@ -51,7 +51,7 @@ a {
 
 .btn {
   background-color: transparent;
-  border: 2px $blue solid;
+  border: 2px $gold solid;
   border-radius: 3px;
   color: #fff;
   font-size: 12pt;
@@ -59,24 +59,24 @@ a {
   padding: 10px;
 
   &:hover {
-    background-color: $blue;
+    background-color: $gold;
   }
 }
 
 .cta {
-  background-color: $blue;
+  background-color: $gold;
   color: #fff !important;
 
   &:hover {
-    background-color: lighten($blue, 5%);
-    border: 2px lighten($blue, 5%) solid;
+    background-color: lighten($gold, 5%);
+    border: 2px lighten($gold, 5%) solid;
   }
 }
 
 .cta-text {
-  color: $blue !important;
+  color: $gold !important;
 
   &:hover {
-    color: lighten($blue, 5%);
+    color: lighten($gold, 5%);
   }
 }
