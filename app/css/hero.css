@@ -1,6 +1,83 @@
+/****************************************
+                Variables
+****************************************/
+/****************************************
+                Universals
+****************************************/
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a {
+  font-family: "Acme", sans-serif; }
+
+p,
+a,
+span,
+ul,
+ol,
+li,
+button {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+/****************************************
+                Classes
+****************************************/
+.container {
+  padding: 40px 80px; }
+
+.btn {
+  background-color: transparent;
+  border: 2px #c79926 solid;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px; }
+  .btn:hover {
+    background-color: #c79926; }
+
+.cta {
+  background-color: #c79926;
+  color: #fff !important; }
+  .cta:hover {
+    background-color: #d7a72f;
+    border: 2px #d7a72f solid; }
+
+.cta-text {
+  color: #c79926 !important; }
+  .cta-text:hover {
+    color: #d7a72f; }
+
 #hero {
+  align-items: center;
   background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  display: flex;
   height: 500px; }
+  #hero .hero-content-wrapper {
+    color: #fff;
+    width: 50%; }
+    #hero .hero-content-wrapper .typed-wrapper {
+      height: 50px; }
+    #hero .hero-content-wrapper h2,
+    #hero .hero-content-wrapper span {
+      font-family: "Acme", sans-serif;
+      font-size: 32pt; }
+    #hero .hero-content-wrapper h2 {
+      margin: 0; }
+    #hero .hero-content-wrapper p {
+      font-size: 18pt; }
