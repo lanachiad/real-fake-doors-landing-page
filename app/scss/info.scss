@@ -1,0 +1,35 @@
+#info {
+  h1 {
+    text-align: center;
+  }
+
+  hr {
+    width: 50%;
+  }
+
+  .info-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .info-content {
+    width: 40%;
+  }
+
+  .info-pic {
+    width: 30%;
+
+    .info-pic-style {
+      height: 300px;
+    }
+  }
+}

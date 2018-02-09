@@ -1,0 +1,24 @@
+#info h1 {
+  text-align: center; }
+
+#info hr {
+  width: 50%; }
+
+#info .info-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-around; }
+
+#info .order-1 {
+  order: 1; }
+
+#info .order-2 {
+  order: 2; }
+
+#info .info-content {
+  width: 40%; }
+
+#info .info-pic {
+  width: 30%; }
+  #info .info-pic .info-pic-style {
+    height: 300px; }
