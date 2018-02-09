@@ -63,6 +63,13 @@ a {
   }
 }
 
+.big {
+  display: table;
+  font-size: 16pt !important;
+  margin: auto;
+  padding: 25px !important;
+}
+
 .cta {
   background-color: $gold;
   color: #fff !important;
