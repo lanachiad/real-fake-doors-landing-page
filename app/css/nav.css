@@ -72,7 +72,8 @@ a {
   #nav .logo {
     text-transform: uppercase; }
     #nav .logo h1 a {
-      color: #fff; }
+      color: #fff;
+      letter-spacing: 2.25px; }
   #nav .nav-links {
     align-items: center;
     display: flex;
