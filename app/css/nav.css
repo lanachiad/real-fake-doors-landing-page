@@ -48,6 +48,12 @@ a {
   .btn:hover {
     background-color: #c79926; }
 
+.big {
+  display: table;
+  font-size: 16pt !important;
+  margin: auto;
+  padding: 25px !important; }
+
 .cta {
   background-color: #c79926;
   color: #fff !important; }
