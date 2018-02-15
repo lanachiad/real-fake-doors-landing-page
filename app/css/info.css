@@ -1,3 +1,71 @@
+/****************************************
+                Variables
+****************************************/
+/****************************************
+                Universals
+****************************************/
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a {
+  font-family: "Acme", sans-serif; }
+
+p,
+a,
+span,
+ul,
+ol,
+li,
+button {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+/****************************************
+                Classes
+****************************************/
+.container {
+  padding: 40px 80px; }
+
+.btn {
+  background-color: transparent;
+  border: 2px #c79926 solid;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px; }
+  .btn:hover {
+    background-color: #c79926; }
+
+.big {
+  display: table;
+  font-size: 16pt !important;
+  margin: auto;
+  padding: 25px !important; }
+
+.cta {
+  background-color: #c79926;
+  color: #fff !important; }
+  .cta:hover {
+    background-color: #d7a72f;
+    border: 2px #d7a72f solid; }
+
+.cta-text {
+  color: #c79926 !important; }
+  .cta-text:hover {
+    color: #d7a72f; }
+
 #info h1 {
   text-align: center; }
 
@@ -8,6 +76,9 @@
   align-items: center;
   display: flex;
   justify-content: space-around; }
+  #info .info-wrapper .btn {
+    font-size: 18pt;
+    padding: 20px; }
 
 #info .order-1 {
   order: 1; }
@@ -17,8 +88,11 @@
 
 #info .info-content {
   width: 40%; }
+  #info .info-content h2 {
+    color: #687d8b; }
 
 #info .info-pic {
-  width: 30%; }
+  text-align: center;
+  width: 40%; }
   #info .info-pic .info-pic-style {
     height: 300px; }
