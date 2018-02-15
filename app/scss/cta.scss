@@ -1,0 +1,21 @@
+@import 'styles';
+
+#cta {
+  background-color: $dark-blue;
+
+  h1 {
+    color: #fff;
+    font-size: 30pt;
+    text-align: center;
+  }
+
+  .cta-btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .cta {
+      font-size: 18pt;
+      padding: 20px;
+    }
+  }
+}
