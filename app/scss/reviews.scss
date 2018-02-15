@@ -1,0 +1,26 @@
+@import 'styles';
+
+#reviews {
+  background-image: url('../images/poopybutthole.png');
+  background-repeat: repeat;
+
+  h1 {
+    text-align: center;
+  }
+
+  .review-wrapper {
+    background-color: #fff;
+    border: 1px $dark-blue solid;
+    margin: 20px auto;
+    width: 75%;
+  }
+
+  .reviewer {
+    display: flex;
+    justify-content: middle;
+
+    img {
+      height: 100px;
+    }
+  }
+}
