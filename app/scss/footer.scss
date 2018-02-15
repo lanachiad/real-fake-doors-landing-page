@@ -2,5 +2,55 @@
 
 #footer {
   background-color: $dark-color;
-  color: #fff;
+  color: silver;
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-link-wrapper {
+    width: 19%;
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:first-of-type {
+        color: #fff;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    font-size: 10pt;
+    justify-content: space-between;
+
+    .copyright-link-wrapper {
+      margin-top: 30px;
+      width: 50%;
+
+      a {
+        color: silver;
+        text-decoration: underline;
+      }
+
+      &:first-of-type {
+        display: flex;
+      }
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+  }
 }

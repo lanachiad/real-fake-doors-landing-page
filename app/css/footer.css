@@ -71,4 +71,32 @@ a {
 
 #footer {
   background-color: #333;
-  color: #fff; }
+  color: silver; }
+  #footer .footer-links {
+    display: flex;
+    justify-content: space-between; }
+  #footer .footer-link-wrapper {
+    width: 19%; }
+    #footer .footer-link-wrapper ul {
+      list-style-type: none;
+      padding-left: 0; }
+    #footer .footer-link-wrapper li:hover {
+      text-decoration: underline; }
+    #footer .footer-link-wrapper li:first-of-type {
+      color: #fff;
+      margin-bottom: 10px;
+      text-transform: uppercase; }
+  #footer .copyright {
+    display: flex;
+    font-size: 10pt;
+    justify-content: space-between; }
+    #footer .copyright .copyright-link-wrapper {
+      margin-top: 30px;
+      width: 50%; }
+      #footer .copyright .copyright-link-wrapper a {
+        color: silver;
+        text-decoration: underline; }
+      #footer .copyright .copyright-link-wrapper:first-of-type {
+        display: flex; }
+      #footer .copyright .copyright-link-wrapper:last-of-type {
+        text-align: right; }
