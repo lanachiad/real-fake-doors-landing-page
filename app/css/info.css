@@ -69,6 +69,7 @@ a {
 #info {
   border-bottom: 1px gray solid; }
   #info h1 {
+    font-size: 36pt;
     text-align: center; }
   #info hr {
     width: 50%; }
