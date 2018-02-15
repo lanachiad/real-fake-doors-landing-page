@@ -85,6 +85,9 @@ a {
   color: $gold !important;
 
   &:hover {
+    border-bottom: 2px lighten($gold, 5%) solid;
+    border-top: 2px lighten($gold, 5%) solid;
     color: lighten($gold, 5%);
+    padding: 7px 0;
   }
 }
