@@ -76,9 +76,10 @@ a {
   #info .info-wrapper {
     align-items: center;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding: 50px 0; }
     #info .info-wrapper:last-of-type {
-      margin-bottom: 30px; }
+      margin: 30px auto; }
     #info .info-wrapper .btn {
       font-size: 18pt;
       padding: 20px; }
@@ -94,4 +95,4 @@ a {
     text-align: center;
     width: 40%; }
     #info .info-pic .info-pic-style {
-      height: 300px; }
+      height: 200px; }
