@@ -70,18 +70,21 @@ a {
   background-image: url("../images/poopybutthole.png");
   background-repeat: repeat; }
   #reviews h1 {
-    font-size: 36pt;
+    font-size: 32pt;
     text-align: center; }
   #reviews .review-wrapper {
     background-color: #fff;
     border: 1px #687d8b solid;
     margin: 20px auto;
-    width: 75%; }
+    padding: 15px 15px 0;
+    width: 60%; }
+    #reviews .review-wrapper:last-of-type {
+      margin-bottom: 30px; }
   #reviews .review-content {
     margin: auto;
     width: 75%; }
     #reviews .review-content p {
-      font-size: 14pt;
+      font-size: 16pt;
       text-align: center; }
   #reviews .reviewer {
     display: flex;

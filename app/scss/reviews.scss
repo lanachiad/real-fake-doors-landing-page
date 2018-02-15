@@ -5,7 +5,7 @@
   background-repeat: repeat;
 
   h1 {
-    font-size: 36pt;
+    font-size: 32pt;
     text-align: center;
   }
 
@@ -13,7 +13,12 @@
     background-color: #fff;
     border: 1px $dark-blue solid;
     margin: 20px auto;
-    width: 75%;
+    padding: 15px 15px 0;
+    width: 60%;
+
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
   }
 
   .review-content {
@@ -21,7 +26,7 @@
     width: 75%;
 
     p {
-      font-size: 14pt;
+      font-size: 16pt;
       text-align: center;
     }
   }
