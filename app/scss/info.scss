@@ -17,6 +17,10 @@
     display: flex;
     justify-content: space-around;
 
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+
     .btn {
       font-size: 18pt;
       padding: 20px;
