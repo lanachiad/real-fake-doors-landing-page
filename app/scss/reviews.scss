@@ -5,6 +5,7 @@
   background-repeat: repeat;
 
   h1 {
+    font-size: 36pt;
     text-align: center;
   }
 
@@ -15,12 +16,26 @@
     width: 75%;
   }
 
+  .review-content {
+    margin: auto;
+    width: 75%;
+
+    p {
+      font-size: 14pt;
+      text-align: center;
+    }
+  }
+
   .reviewer {
     display: flex;
-    justify-content: middle;
+    justify-content: center;
 
     img {
       height: 100px;
+    }
+
+    p {
+      margin: auto 0 auto 20px;
     }
   }
 }
