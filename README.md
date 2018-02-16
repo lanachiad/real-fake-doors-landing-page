@@ -7,7 +7,7 @@
 * [Typed.js](https://mattboldt.com/demos/typed-js/)
 * [AOS](http://michalsnik.github.io/aos/)
 * [iStock](https://www.istockphoto.com/)
-* [MuckRack](https://muckrack.com/) (for inspiration on design)
+* [Muck Rack](https://muckrack.com/) (for design inspiration)
 
 All images were modified by me using [Adobe Photoshop](https://www.adobe.com/products/photoshop.html), including the patterned Mr. Poopybutthole background.
 
