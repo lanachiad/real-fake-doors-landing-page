@@ -4,7 +4,14 @@
     #credentials .company-wrapper .company-logos {
       display: block;
       height: 200px;
-      margin: auto; } }
+      margin: auto; }
+  #info .info-wrapper {
+    display: block;
+    text-align: center; }
+  #info .info-content {
+    width: 100%; }
+  .info-pic {
+    margin: auto; } }
 
 @media only screen and (max-width: 935px) {
   .container {

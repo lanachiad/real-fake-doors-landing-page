@@ -12,6 +12,21 @@
       }
     }
   }
+
+  #info {
+    .info-wrapper {
+      display: block;
+      text-align: center;
+    }
+
+    .info-content {
+      width: 100%;
+    }
+  }
+
+  .info-pic {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 935px) {
