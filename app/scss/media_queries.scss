@@ -82,4 +82,21 @@
       width: 100%;
     }
   }
+
+  #footer {
+    .footer-links,
+    .copyright {
+      display: block;
+    }
+
+    .footer-link-wrapper,
+    .copyright-link-wrapper {
+      text-align: center !important;
+      width: 100% !important;
+
+      &:first-of-type {
+        display: block !important;
+      }
+    }
+  }
 }

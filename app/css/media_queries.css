@@ -48,4 +48,14 @@
     display: block; }
   #hero .hero-content-wrapper {
     text-align: center;
-    width: 100%; } }
+    width: 100%; }
+  #footer .footer-links,
+  #footer .copyright {
+    display: block; }
+  #footer .footer-link-wrapper,
+  #footer .copyright-link-wrapper {
+    text-align: center !important;
+    width: 100% !important; }
+    #footer .footer-link-wrapper:first-of-type,
+    #footer .copyright-link-wrapper:first-of-type {
+      display: block !important; } }
