@@ -3,14 +3,6 @@
 #nav {
   background-color: $dark-color;
 
-  a {
-    color: #9d9d9d;
-
-    &:hover {
-      color: #fff;
-    }
-  }
-
   .nav-wrapper {
     display: flex;
     justify-content: space-around;
@@ -31,8 +23,14 @@
     list-style-type: none;
 
     li {
+      color: #9d9d9d;
       display: inline;
       margin-right: 30px;
+
+      &:hover {
+        color: #fff;
+        cursor: pointer;
+      }
     }
 
     li:last-of-type {
