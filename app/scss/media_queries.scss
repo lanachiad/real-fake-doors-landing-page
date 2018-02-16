@@ -1,6 +1,12 @@
 @import 'universals';
 
 @media only screen and (max-width: 500px) {
+  #nav {
+    .disappear {
+      right: 0px !important;
+    }
+  }
+
   #hero {
     .hero-content-wrapper {
       .typed-wrapper {
@@ -31,6 +37,12 @@
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
+  #nav {
+    .disappear {
+      right: 80px !important;
+    }
+  }
+
   #credentials {
     .company-wrapper {
       .company-logos {
@@ -41,12 +53,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-  #nav {
-    .disappear {
-      right: 80px !important;
-    }
-  }
-
   #credentials {
     .company-wrapper {
       display: block;
@@ -134,7 +140,7 @@
     }
 
     .disappear {
-      right: 80px !important;
+      right: 80px;
     }
   }
 

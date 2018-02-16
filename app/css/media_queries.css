@@ -1,4 +1,6 @@
 @media only screen and (max-width: 500px) {
+  #nav .disappear {
+    right: 0px !important; }
   #hero .hero-content-wrapper .typed-wrapper {
     height: 75px; }
   #hero .hero-content-wrapper h2,
@@ -11,12 +13,12 @@
     height: 150px; } }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
+  #nav .disappear {
+    right: 80px !important; }
   #credentials .company-wrapper .company-logos {
     height: 200px; } }
 
 @media only screen and (max-width: 800px) {
-  #nav .disappear {
-    right: 80px !important; }
   #credentials .company-wrapper {
     display: block; }
     #credentials .company-wrapper .company-logos {
@@ -71,7 +73,7 @@
       #nav #mobile-nav-links ul .cta-text:hover {
         border: 0; }
   #nav .disappear {
-    right: 80px !important; }
+    right: 80px; }
   #hero .hero-content-wrapper {
     text-align: center;
     width: 100%; }
