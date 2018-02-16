@@ -1,4 +1,7 @@
 @media only screen and (max-width: 500px) {
+  #hero .hero-content-wrapper h2,
+  #hero .hero-content-wrapper span {
+    font-size: 28pt; }
   #credentials .company-wrapper .company-logos {
     height: 150px; } }
 

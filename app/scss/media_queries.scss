@@ -1,6 +1,15 @@
 @import 'universals';
 
 @media only screen and (max-width: 500px) {
+  #hero {
+    .hero-content-wrapper {
+      h2,
+      span {
+        font-size: 28pt;
+      }
+    }
+  }
+
   #credentials {
     .company-wrapper {
       .company-logos {
