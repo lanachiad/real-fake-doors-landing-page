@@ -1,16 +1,5 @@
-/****************************************
-                Variables
-****************************************/
-$heading-font: 'Acme', sans-serif;
-$body-font: 'Montserrat', sans-serif;
+@import 'universals';
 
-$dark-color: #333;
-$gold: #c79926;
-$dark-blue: rgb(104, 125, 139);
-
-/****************************************
-                Universals
-****************************************/
 html,
 body {
   margin: 0;
