@@ -1,14 +1,14 @@
 @media only screen and (max-width: 935px) {
   #nav .nav-links {
     display: none; }
-  #nav .mobile-nav-links {
+  #nav .mobile-nav {
     align-items: center;
     color: #c79926;
     display: flex;
     -webkit-transition: all 0.25s;
     /* Safari */
     transition: all 0.25s; }
-    #nav .mobile-nav-links:hover {
+    #nav .mobile-nav:hover {
       cursor: pointer;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
