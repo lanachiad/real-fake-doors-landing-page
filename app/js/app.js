@@ -1,6 +1,12 @@
 $(function() {
-    $('.typed').typed({
-        strings: ['Real?', 'Fake?', 'Functional?', 'Decorative?', 'From dimension C-137?'],
+    $(".typed").typed({
+        strings: [
+            "Real?",
+            "Fake?",
+            "Functional?",
+            "Decorative?",
+            "From dimension C-137?"
+        ],
         // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
         stringsElement: null,
         // typing speed
@@ -18,11 +24,11 @@ $(function() {
         // show cursor
         showCursor: false,
         // character for cursor
-        cursorChar: '|',
+        cursorChar: "|",
         // attribute to type (null == text)
         attr: null,
         // either html or text
-        contentType: 'html',
+        contentType: "html",
         // call when done callback function
         callback: function() {},
         // starting callback function before each string
@@ -32,4 +38,8 @@ $(function() {
         // callback for reset
         resetCallback: function() {}
     });
+});
+
+AOS.init({
+    duration: 1200
 });
