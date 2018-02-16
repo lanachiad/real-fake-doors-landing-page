@@ -4,6 +4,9 @@
   #hero .hero-content-wrapper h2,
   #hero .hero-content-wrapper span {
     font-size: 28pt; }
+  #hero .hero-content-wrapper .hero-buttons .btn:first-of-type {
+    color: #c79926;
+    margin-bottom: 25px; }
   #credentials .company-wrapper .company-logos {
     height: 150px; } }
 

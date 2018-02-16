@@ -11,6 +11,13 @@
       span {
         font-size: 28pt;
       }
+
+      .hero-buttons {
+        .btn:first-of-type {
+          color: $gold;
+          margin-bottom: 25px;
+        }
+      }
     }
   }
 
