@@ -21,3 +21,5 @@
         cursor: pointer; }
     #nav .nav-links li:last-of-type {
       margin-right: 0; }
+  #nav .mobile-nav-links {
+    display: none; }
