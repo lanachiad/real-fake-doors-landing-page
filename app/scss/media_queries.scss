@@ -3,6 +3,10 @@
 @media only screen and (max-width: 500px) {
   #hero {
     .hero-content-wrapper {
+      .typed-wrapper {
+        height: 75px;
+      }
+
       h2,
       span {
         font-size: 28pt;
