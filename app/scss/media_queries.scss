@@ -1,0 +1,28 @@
+@import 'universals';
+
+@media only screen and (max-width: 940px) {
+  #nav {
+    .nav-links {
+      display: none;
+    }
+
+    .mobile-nav-links {
+      align-items: center;
+      color: $gold;
+      display: flex;
+      -webkit-transition: all 0.25s; /* Safari */
+      transition: all 0.25s;
+
+      &:hover {
+        cursor: pointer;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: all 0.25s; /* Safari */
+        transition: all 0.25s;
+      }
+    }
+  }
+}
