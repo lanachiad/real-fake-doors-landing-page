@@ -57,4 +57,11 @@
       display: block;
     }
   }
+
+  #hero {
+    .hero-content-wrapper {
+      text-align: center;
+      width: 100%;
+    }
+  }
 }

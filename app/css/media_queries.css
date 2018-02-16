@@ -35,4 +35,7 @@
       #nav #mobile-nav-links ul .cta-text:hover {
         border: 0; }
   #nav .addMenu {
-    display: block; } }
+    display: block; }
+  #hero .hero-content-wrapper {
+    text-align: center;
+    width: 100%; } }
