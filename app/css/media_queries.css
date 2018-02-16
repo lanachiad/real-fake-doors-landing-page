@@ -1,9 +1,16 @@
+@media only screen and (max-width: 500px) {
+  #credentials .company-wrapper .company-logos {
+    height: 150px; } }
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  #credentials .company-wrapper .company-logos {
+    height: 200px; } }
+
 @media only screen and (max-width: 800px) {
   #credentials .company-wrapper {
     display: block; }
     #credentials .company-wrapper .company-logos {
       display: block;
-      height: 200px;
       margin: auto; }
   #info .info-wrapper {
     display: block;
@@ -11,7 +18,8 @@
   #info .info-content {
     width: 100%; }
   .info-pic {
-    margin: auto; } }
+    margin: auto;
+    width: 100% !important; } }
 
 @media only screen and (max-width: 935px) {
   .container {
