@@ -47,6 +47,8 @@ a {
   padding: 10px; }
   .btn:hover {
     background-color: #c79926; }
+  .btn:focus {
+    outline: none; }
 
 .big {
   display: table;

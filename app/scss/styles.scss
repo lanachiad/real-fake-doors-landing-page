@@ -62,6 +62,10 @@ a {
   &:hover {
     background-color: $gold;
   }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .big {
