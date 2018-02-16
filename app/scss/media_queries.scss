@@ -41,6 +41,12 @@
 }
 
 @media only screen and (max-width: 800px) {
+  #nav {
+    .disappear {
+      right: 80px !important;
+    }
+  }
+
   #credentials {
     .company-wrapper {
       display: block;
@@ -83,8 +89,8 @@
       align-items: center;
       color: $gold;
       display: flex;
-      -webkit-transition: all 0.25s; /* Safari */
-      transition: all 0.25s;
+      -webkit-transition: transform 0.25s; /* Safari */
+      transition: transform 0.25s;
 
       &:hover {
         cursor: pointer;
@@ -93,15 +99,16 @@
         -o-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
-        -webkit-transition: all 0.25s; /* Safari */
-        transition: all 0.25s;
+        -webkit-transition: transform 0.25s; /* Safari */
+        transition: transform 0.25s;
       }
     }
 
     #mobile-nav-links {
       background-color: $dark-color;
+      display: block;
       position: absolute;
-      right: 30px;
+      right: -200px;
       top: 60px;
 
       ul {
@@ -126,8 +133,8 @@
       }
     }
 
-    .addMenu {
-      display: block;
+    .disappear {
+      right: 80px !important;
     }
   }
 
