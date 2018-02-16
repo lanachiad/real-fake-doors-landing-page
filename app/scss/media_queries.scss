@@ -1,5 +1,19 @@
 @import 'universals';
 
+@media only screen and (max-width: 800px) {
+  #credentials {
+    .company-wrapper {
+      display: block;
+
+      .company-logos {
+        display: block;
+        height: 200px;
+        margin: auto;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 935px) {
   .container {
     padding: 10px 5px;
