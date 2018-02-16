@@ -6,7 +6,7 @@
       display: none;
     }
 
-    .mobile-nav {
+    #mobile-nav {
       align-items: center;
       color: $gold;
       display: flex;
@@ -23,6 +23,38 @@
         -webkit-transition: all 0.25s; /* Safari */
         transition: all 0.25s;
       }
+    }
+
+    #mobile-nav-links {
+      background-color: $dark-color;
+      position: absolute;
+      right: 30px;
+      top: 60px;
+
+      ul {
+        list-style-type: none;
+        padding: 10px 20px;
+
+        li {
+          color: silver;
+          cursor: pointer;
+          padding: 5px 0;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .cta-text {
+          &:hover {
+            border: 0;
+          }
+        }
+      }
+    }
+
+    .addMenu {
+      display: block;
     }
   }
 }

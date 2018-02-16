@@ -1,14 +1,14 @@
 @media only screen and (max-width: 935px) {
   #nav .nav-links {
     display: none; }
-  #nav .mobile-nav {
+  #nav #mobile-nav {
     align-items: center;
     color: #c79926;
     display: flex;
     -webkit-transition: all 0.25s;
     /* Safari */
     transition: all 0.25s; }
-    #nav .mobile-nav:hover {
+    #nav #mobile-nav:hover {
       cursor: pointer;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -17,4 +17,22 @@
       transform: rotate(45deg);
       -webkit-transition: all 0.25s;
       /* Safari */
-      transition: all 0.25s; } }
+      transition: all 0.25s; }
+  #nav #mobile-nav-links {
+    background-color: #333;
+    position: absolute;
+    right: 30px;
+    top: 60px; }
+    #nav #mobile-nav-links ul {
+      list-style-type: none;
+      padding: 10px 20px; }
+      #nav #mobile-nav-links ul li {
+        color: silver;
+        cursor: pointer;
+        padding: 5px 0; }
+        #nav #mobile-nav-links ul li:hover {
+          text-decoration: underline; }
+      #nav #mobile-nav-links ul .cta-text:hover {
+        border: 0; }
+  #nav .addMenu {
+    display: block; } }
