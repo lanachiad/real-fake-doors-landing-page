@@ -1,6 +1,4 @@
 @media only screen and (max-width: 500px) {
-  #nav .disappear {
-    right: 0px !important; }
   #hero .hero-content-wrapper .typed-wrapper {
     height: 75px; }
   #hero .hero-content-wrapper h2,
@@ -13,8 +11,6 @@
     height: 150px; } }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
-  #nav .disappear {
-    right: 80px !important; }
   #credentials .company-wrapper .company-logos {
     height: 200px; } }
 
@@ -43,17 +39,10 @@
     color: #c79926;
     display: flex;
     -webkit-transition: transform 0.25s;
-    /* Safari */
     transition: transform 0.25s; }
     #nav #mobile-nav:hover {
       cursor: pointer;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
       -webkit-transition: transform 0.25s;
-      /* Safari */
       transition: transform 0.25s; }
   #nav .turn {
     -webkit-transform: rotate(45deg);
@@ -62,14 +51,13 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transition: transform 0.25s;
-    /* Safari */
     transition: transform 0.25s; }
   #nav #mobile-nav-links {
     background-color: #333;
-    display: block;
+    border-top: 2px #595959 solid;
+    display: none;
     position: absolute;
-    right: -200px;
-    top: 60px; }
+    top: 70px; }
     #nav #mobile-nav-links ul {
       list-style-type: none;
       padding: 10px 20px; }
@@ -81,8 +69,9 @@
           text-decoration: underline; }
       #nav #mobile-nav-links ul .cta-text:hover {
         border: 0; }
-  #nav .disappear {
-    right: 80px; }
+  #nav .showMenu {
+    display: block !important;
+    right: 0; }
   #hero .hero-content-wrapper {
     text-align: center;
     width: 100%; }

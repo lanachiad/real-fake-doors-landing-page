@@ -1,12 +1,6 @@
 @import 'universals';
 
 @media only screen and (max-width: 500px) {
-    #nav {
-        .disappear {
-            right: 0px !important;
-        }
-    }
-
     #hero {
         .hero-content-wrapper {
             .typed-wrapper {
@@ -37,12 +31,6 @@
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
-    #nav {
-        .disappear {
-            right: 80px !important;
-        }
-    }
-
     #credentials {
         .company-wrapper {
             .company-logos {
@@ -96,18 +84,11 @@
             color: $gold;
             display: flex;
             -webkit-transition: transform 0.25s;
-            /* Safari */
             transition: transform 0.25s;
 
             &:hover {
                 cursor: pointer;
-                -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
                 -webkit-transition: transform 0.25s;
-                /* Safari */
                 transition: transform 0.25s;
             }
         }
@@ -119,16 +100,15 @@
             -ms-transform: rotate(45deg);
             transform: rotate(45deg);
             -webkit-transition: transform 0.25s;
-            /* Safari */
             transition: transform 0.25s;
         }
 
         #mobile-nav-links {
             background-color: $dark-color;
-            display: block;
+            border-top: 2px lighten($dark-color, 15%) solid;
+            display: none;
             position: absolute;
-            right: -200px;
-            top: 60px;
+            top: 70px;
 
             ul {
                 list-style-type: none;
@@ -152,8 +132,9 @@
             }
         }
 
-        .disappear {
-            right: 80px;
+        .showMenu {
+            display: block !important;
+            right: 0;
         }
     }
 
