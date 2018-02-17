@@ -1,170 +1,183 @@
 @import 'universals';
 
 @media only screen and (max-width: 500px) {
-  #nav {
-    .disappear {
-      right: 0px !important;
-    }
-  }
-
-  #hero {
-    .hero-content-wrapper {
-      .typed-wrapper {
-        height: 75px;
-      }
-
-      h2,
-      span {
-        font-size: 28pt;
-      }
-
-      .hero-buttons {
-        .btn:first-of-type {
-          color: $gold;
-          margin-bottom: 25px;
+    #nav {
+        .disappear {
+            right: 0px !important;
         }
-      }
     }
-  }
 
-  #credentials {
-    .company-wrapper {
-      .company-logos {
-        height: 150px;
-      }
+    #hero {
+        .hero-content-wrapper {
+            .typed-wrapper {
+                height: 75px;
+            }
+
+            h2,
+            span {
+                font-size: 28pt;
+            }
+
+            .hero-buttons {
+                .btn:first-of-type {
+                    color: $gold;
+                    margin-bottom: 25px;
+                }
+            }
+        }
     }
-  }
+
+    #credentials {
+        .company-wrapper {
+            .company-logos {
+                height: 150px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
-  #nav {
-    .disappear {
-      right: 80px !important;
+    #nav {
+        .disappear {
+            right: 80px !important;
+        }
     }
-  }
 
-  #credentials {
-    .company-wrapper {
-      .company-logos {
-        height: 200px;
-      }
+    #credentials {
+        .company-wrapper {
+            .company-logos {
+                height: 200px;
+            }
+        }
     }
-  }
 }
 
 @media only screen and (max-width: 800px) {
-  #credentials {
-    .company-wrapper {
-      display: block;
+    #credentials {
+        .company-wrapper {
+            display: block;
 
-      .company-logos {
-        display: block;
+            .company-logos {
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+
+    #info {
+        .info-wrapper {
+            display: block;
+            text-align: center;
+        }
+
+        .info-content {
+            width: 100%;
+        }
+    }
+
+    .info-pic {
         margin: auto;
-      }
+        width: 100% !important;
     }
-  }
-
-  #info {
-    .info-wrapper {
-      display: block;
-      text-align: center;
-    }
-
-    .info-content {
-      width: 100%;
-    }
-  }
-
-  .info-pic {
-    margin: auto;
-    width: 100% !important;
-  }
 }
 
 @media only screen and (max-width: 935px) {
-  .container {
-    padding: 10px 5px;
-  }
-
-  #nav {
-    .nav-links {
-      display: none;
+    .container {
+        padding: 10px 5px;
     }
 
-    #mobile-nav {
-      align-items: center;
-      color: $gold;
-      display: flex;
-      -webkit-transition: transform 0.25s; /* Safari */
-      transition: transform 0.25s;
-
-      &:hover {
-        cursor: pointer;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        -webkit-transition: transform 0.25s; /* Safari */
-        transition: transform 0.25s;
-      }
-    }
-
-    #mobile-nav-links {
-      background-color: $dark-color;
-      display: block;
-      position: absolute;
-      right: -200px;
-      top: 60px;
-
-      ul {
-        list-style-type: none;
-        padding: 10px 20px;
-
-        li {
-          color: silver;
-          cursor: pointer;
-          padding: 5px 0;
-
-          &:hover {
-            text-decoration: underline;
-          }
+    #nav {
+        .nav-links {
+            display: none;
         }
 
-        .cta-text {
-          &:hover {
-            border: 0;
-          }
+        #mobile-nav {
+            align-items: center;
+            color: $gold;
+            display: flex;
+            -webkit-transition: transform 0.25s;
+            /* Safari */
+            transition: transform 0.25s;
+
+            &:hover {
+                cursor: pointer;
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                -webkit-transition: transform 0.25s;
+                /* Safari */
+                transition: transform 0.25s;
+            }
         }
-      }
+
+        .turn {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            -webkit-transition: transform 0.25s;
+            /* Safari */
+            transition: transform 0.25s;
+        }
+
+        #mobile-nav-links {
+            background-color: $dark-color;
+            display: block;
+            position: absolute;
+            right: -200px;
+            top: 60px;
+
+            ul {
+                list-style-type: none;
+                padding: 10px 20px;
+
+                li {
+                    color: silver;
+                    cursor: pointer;
+                    padding: 5px 0;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                .cta-text {
+                    &:hover {
+                        border: 0;
+                    }
+                }
+            }
+        }
+
+        .disappear {
+            right: 80px;
+        }
     }
 
-    .disappear {
-      right: 80px;
-    }
-  }
-
-  #hero {
-    .hero-content-wrapper {
-      text-align: center;
-      width: 100%;
-    }
-  }
-
-  #footer {
-    .footer-links,
-    .copyright {
-      display: block;
+    #hero {
+        .hero-content-wrapper {
+            text-align: center;
+            width: 100%;
+        }
     }
 
-    .footer-link-wrapper,
-    .copyright-link-wrapper {
-      text-align: center !important;
-      width: 100% !important;
+    #footer {
+        .footer-links,
+        .copyright {
+            display: block;
+        }
 
-      &:first-of-type {
-        display: block !important;
-      }
+        .footer-link-wrapper,
+        .copyright-link-wrapper {
+            text-align: center !important;
+            width: 100% !important;
+
+            &:first-of-type {
+                display: block !important;
+            }
+        }
     }
-  }
 }

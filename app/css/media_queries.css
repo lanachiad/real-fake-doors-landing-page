@@ -55,6 +55,15 @@
       -webkit-transition: transform 0.25s;
       /* Safari */
       transition: transform 0.25s; }
+  #nav .turn {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: transform 0.25s;
+    /* Safari */
+    transition: transform 0.25s; }
   #nav #mobile-nav-links {
     background-color: #333;
     display: block;
