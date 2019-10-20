@@ -24,10 +24,6 @@ import elements from './helpers/elements';
 let $aosElements = [];
 let initialized = false;
 
-// Detect not supported browsers (<=IE9)
-// http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-const browserNotSupported = document.all && !window.atob;
-
 /**
  * Default options
  */
@@ -38,7 +34,10 @@ let options = {
   duration: 400,
   disable: false,
   once: false,
-  startEvent: 'DOMContentLoaded'
+  startEvent: 'DOMContentLoaded',
+  throttleDelay: 99,
+  debounceDelay: 50,
+  disableMutationObserver: false,
 };
 
 /**
@@ -107,6 +106,10 @@ const init = function init(settings) {
   // Create initial array with elements -> to be fullfilled later with prepare()
   $aosElements = elements();
 
+  // Detect not supported browsers (<=IE9)
+  // http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+  const browserNotSupported = document.all && !window.atob;
+
   /**
    * Don't init plugin if option `disable` is set
    * or when browser is not supported
@@ -145,33 +148,24 @@ const init = function init(settings) {
   /**
    * Refresh plugin on window resize or orientation change
    */
-  window.addEventListener('resize', debounce(refresh, 50, true));
-  window.addEventListener('orientationchange', debounce(refresh, 50, true));
+  window.addEventListener('resize', debounce(refresh, options.debounceDelay, true));
+  window.addEventListener('orientationchange', debounce(refresh, options.debounceDelay, true));
 
   /**
    * Handle scroll event to animate elements on scroll
    */
   window.addEventListener('scroll', throttle(() => {
     handleScroll($aosElements, options.once);
-  }, 99));
-
-  /**
-   * Watch if nodes are removed
-   * If so refresh plugin
-   */
-  document.addEventListener('DOMNodeRemoved', (event) => {
-    const el = event.target;
-    if (el && el.nodeType === 1 && el.hasAttribute && el.hasAttribute('data-aos')) {
-      debounce(refreshHard, 50, true)
-    }
-  });
+  }, options.throttleDelay));
 
   /**
    * Observe [aos] elements
    * If something is loaded by AJAX
    * it'll refresh plugin automatically
    */
-  observe('[data-aos]', refreshHard);
+  if (!options.disableMutationObserver) {
+    observe('[data-aos]', refreshHard);
+  }
 
   return $aosElements;
 };
